@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 
 // Create connection pool
 const pool = mysql.createPool({
-    host: 'db1877.hstgr.io',
-    user: 'u553928949_connect', 
-    password: '8999Shiv@m', 
-    database: 'u553928949_connect', 
+    host: 'localhost',
+    user: 'root', 
+    password: '9691429646', 
+    database: 'mentor_connect', 
 });
 
 // Export pool as promise
